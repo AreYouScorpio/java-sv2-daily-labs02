@@ -5,7 +5,7 @@ public class GasstationMain {
     public static void main(String[] args) {
 
 
-        Car car = new Car(10, 100);
+        Car car = new Car(40, 100);
         GasStation gasStation = new GasStation(468);
 
         System.out.println("A tankolás ára: "+ gasStation.tankCar(car, 40));
