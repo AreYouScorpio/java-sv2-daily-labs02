@@ -10,6 +10,7 @@ this.price = price;}
 
 public int tankCar(Car car, int liter)
 {
+    car.setLitre(liter);
 return liter*price;
 }
 
