@@ -8,10 +8,10 @@ public class GasStation {
 public GasStation(int price){
 this.price = price;}
 
-public int tankCar(Car car, int liter)
+public int tankCar(Car car, int litre)
 {
-    car.setLitre(liter);
-return liter*price;
+    car.setLitre(litre);
+return litre*price;
 }
 
 
